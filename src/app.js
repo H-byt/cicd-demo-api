@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Route 1: Health check
 app.get('/', (req, res) => {
-  res.json({ status: 'ok', message: 'CI/CD Demo API is running!' });
+  res.json({ status: 'ok', message: 'CI/CD Demo API is running! v2' });
 });
 
 // Route 2: Add two numbers
